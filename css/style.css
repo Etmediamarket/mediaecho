@@ -4,7 +4,37 @@
 @import "../tailwind.config.js";
 
 h2 {
-  font-size: 27px !important;
+  font-size: 22px !important;
+}
+h4 {
+  font-size: 18px !important;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h4 {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 23px !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h4 {
+    font-size: 21px !important;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h4 {
+    font-size: 24px !important;
+  }
+  h2 {
+    font-size: 27px !important;
+  }
 }
 
 /********** Template CSS **********/
