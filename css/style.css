@@ -3,6 +3,16 @@
 @import "tailwindcss/utilities";
 @import "../tailwind.config.js";
 
+.servicebg {
+  background-color: #fff7ef;
+  width: 160px;
+  height: 160px;
+}
+.transition .px-5 {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+
 h2 {
   font-size: 22px !important;
 }
@@ -11,6 +21,12 @@ h4 {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .img-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+
   h4 {
     font-size: 20px !important;
   }
@@ -26,6 +42,14 @@ h4 {
   h2 {
     font-size: 25px !important;
   }
+  .transition .px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+  .servicebg {
+    width: 180px;
+    height: 180px;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -34,6 +58,10 @@ h4 {
   }
   h2 {
     font-size: 27px !important;
+  }
+  .servicebg {
+    width: 200px;
+    height: 200px;
   }
 }
 
