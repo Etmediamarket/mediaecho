@@ -3,6 +3,10 @@
 @import "tailwindcss/utilities";
 @import "../tailwind.config.js";
 
+#alert-box {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .servicebg {
   background-color: #fff7ef;
   width: 160px;
