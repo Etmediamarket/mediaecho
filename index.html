@@ -144,9 +144,9 @@ function showAlert(message) {
                 >
               </div>
             </div>
-            <a href="service.html" class="nav-item nav-link">Pricing</a>
-            <a href="service.html" class="nav-item nav-link">FAQ</a>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="#pricing" class="nav-item nav-link">Pricing</a>
+            <a href="#faq" class="nav-item nav-link">FAQ</a>
+            <a href="#contact" class="nav-item nav-link">Contact</a>
           </div>
         </div>
       </nav>
@@ -170,14 +170,9 @@ function showAlert(message) {
                   Creative & Innovative Advertising Solution
                 </h1>
                 <a
-                  href="quote.html"
-                  class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
-                  >Free Quote</a
-                >
-                <a
-                  href=""
-                  class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight"
-                  >Contact Us</a
+                  href="#pricing"
+                  class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft mt-3 md:mt-8 text-sm sm:text-base md:text-lg"
+                  >Save big with our pricing packages!</a
                 >
               </div>
             </div>
@@ -195,20 +190,14 @@ function showAlert(message) {
                   Facebook & Tiktok Advertising
                 </h1>
                 <a
-                  href="quote.html"
-                  class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
-                  >Free Quote</a
-                >
-                <a
-                  href=""
-                  class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight"
-                  >Contact Us</a
-                >
+                  href="#pricing"
+                  class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft mt-3 md:mt-8 text-sm sm:text-base md:text-lg"
+                  >Save big with our pricing packages!</a>
               </div>
             </div>
           </div>
         </div>
-        <button
+        <buttons
           class="carousel-control-prev"
           type="button"
           data-bs-target="#header-carousel"
@@ -216,7 +205,7 @@ function showAlert(message) {
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-        </button>
+        </buttons>
         <button
           class="carousel-control-next"
           type="button"
@@ -322,8 +311,8 @@ function showAlert(message) {
     <!-- Facts Start -->
 
     <!-- About Start -->
-      <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container py-5">
+      <div class="container-fluid py-2 md:py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-3 md:py-5">
         <div
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style="max-width: 600px"
@@ -343,7 +332,7 @@ function showAlert(message) {
     <img src="./img/services/about.jpg" alt="Facebook Advertising" class="w-full h-auto">
   </div>
   <div class="w-full md:w-3/5 px-4 pt-8">
-    <p class="text-lg mb-6">
+    <p class="text-base sm:text-lg mb-6">
      MediaEcho is a full-service social media advertising agency that specializes in developing targeted and effective digital marketing strategies to help businesses grow and achieve their goals.
 <br><br>
 Our team of experts uses a data-driven approach to optimize social media campaigns for maximum ROI. With personalized service and transparent reporting, we are committed to delivering outstanding results for each client. Contact us today to learn how MediaEcho can help you take your social media advertising to the next level!"
@@ -365,7 +354,7 @@ Our team of experts uses a data-driven approach to optimize social media campaig
     <!-- About End -->
 
     <!-- Features Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-1 md:py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-5">
         <div
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
@@ -466,8 +455,8 @@ We offer competitive pricing for our services without compromising on quality, m
     <!-- Features Start -->
 
     <!-- Service Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container py-5">
+    <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-3">
         <div
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style="max-width: 600px"
@@ -674,8 +663,9 @@ Statrt
 end
  -->
 
+
     <!-- Pricing Plan Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="pricing" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-5">
         <div
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
@@ -1099,7 +1089,7 @@ end
     <!-- Testimonial End -->
 
     <!-- Vendor Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-5 mb-5">
         <div class="bg-white">
           <div class="owl-carousel vendor-carousel">
@@ -1120,8 +1110,8 @@ end
 
     <!-- FAQ Section -->
 
-    <div class="grid place-items-center container-fluid"></div>
-      <div class="max-w-full mx-2 sm:mx-8">
+    <div id="faq" class="grid place-items-center container-fluid pb-5"></div>
+      <div class="max-w-full ">
         <div class="bg-white p-1 sm:p-5">
           <div
             class="section-title position-relative pb-3 mb-5 text-center container"
@@ -1338,8 +1328,8 @@ How do I get started with MediaEcho's social media advertising services?        
     <!-- FAQ End Section -->
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container py-5">
+    <div id="contact" class="mp-8 container-fluid py-3 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-3">
         <div
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style="max-width: 600px"
@@ -1368,7 +1358,7 @@ How do I get started with MediaEcho's social media advertising services?        
               </div>
               <div class="ps-4">
                 <h5 class="mb-2">Reach out via email </h5>
-<a href="mailto:info@example.com"><h4 class="text-primary mb-0">info@example.com</h4></a>
+<a href="mailto:info@example.com"><h4 class="text-primary mb-0">Mediaecho@gmail.com</h4></a>
               </div>
             </div>
           </div>
@@ -1385,7 +1375,7 @@ How do I get started with MediaEcho's social media advertising services?        
               </div>
               <div class="ps-4">
                <h5 class="mb-2">Get in touch via LinkedIn:</h5>
-<a href="https://www.linkedin.com/in/yourprofile/" target="_blank"><h4 class="text-primary mb-0">linkedin.com/in/yourprofile/</h4></a>
+<a href="https://www.linkedin.com/in/yourprofile/" target="_blank"><h4 class="text-primary mb-0">Mediaecho</h4></a>
               </div>
             </div>
           </div>
@@ -1400,7 +1390,7 @@ How do I get started with MediaEcho's social media advertising services?        
               >
 <i class="fab fa-telegram-plane text-white"></i>              </div>
               <div class="ps-4">
-                <h5 class="mb-2">Stay in touch with us on Telegram</h5>
+                <h5 class="mb-2">Keep in touch on Telegram</h5>
 <a href="t.me//Mediaecho" target="_blank"><h4 class="text-primary mb-0">t.me//Mediaecho</h4></a>        </div>
             </div>
           </div>
@@ -1466,14 +1456,7 @@ How do I get started with MediaEcho's social media advertising services?        
       </div>
     </div>
   </form>
-</div>
-<form>
-  <label for="choose">Would you prefer a banana or cherry? (required)</label>
-  <input id="choose" name="i-like" required />
-  <button>Submit</button>
-</form>
-
-          
+</div>    
         </div>
       </div>
     </div>
